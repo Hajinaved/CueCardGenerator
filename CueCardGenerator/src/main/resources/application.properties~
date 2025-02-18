@@ -1,0 +1,5 @@
+spring.application.name=CueCardGenerator
+logging.level.org.springframework.web=DEBUG
+gemini.api.key=${GEMINI_API_KEY}
+gemini.api.url=${GEMINI_API_URL}
+cuecard.prompt=get me a single cue card,as used in ielts speech part 1 test,generate in this format .
